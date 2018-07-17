@@ -1,0 +1,31 @@
+form {
+    width: 400px; 
+    margin: 0 auto; 
+    background: rgb(245, 244, 219);
+    border: 1px solid black; 
+    border-radius: 5px;
+}
+p {
+    display: block;
+    width: 260px;
+    padding: 10px 0;
+    font-size: 20px;
+    margin: 0 15px;
+}
+input {
+    display: block;
+    width: 360px; 
+    margin: 0 15px;
+    padding: 10px 5px;
+    border: 1px solid black;
+    font-size: 22px;
+    border-radius: 5px;
+}
+button {
+    width: 70px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: rgb(231, 237, 151);
+}

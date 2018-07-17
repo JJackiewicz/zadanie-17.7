@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        title Logowanie
+        style
+            include style.css
+    body
+        .panel
+            form(action="/auth/google", method="GET")
+                p Username:
+                input(type="text", name="user", placeholder="Username")
+                p Password:
+                input(type="password", name="password", placeholder="Password")
+                button(type="submit", value="Submit") Sign in
